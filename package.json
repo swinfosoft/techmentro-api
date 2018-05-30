@@ -1,0 +1,23 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+   "author": "",
+  "license": "ISC",
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "multer": "^1.3.0"
+    },
+  "scripts": {
+     "start": "node app.js"
+    },
+  "homepage": "http://github.com/swinfosoft/techmentro-api"
+}
