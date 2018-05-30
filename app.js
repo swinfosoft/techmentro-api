@@ -92,6 +92,16 @@ app.use(bodyParser.json());
 //cors middleware is registered
 app.use(cors());
 
+app.get('/',(req,res)=>{
+
+	res.sendStatus(200);
+});
+
+app.get('/pagecount',(req,res)=>{
+
+	res.sendStatus(200);
+});
+
 app.post('/upload', upload.any(), (req, res,next) => {
             
         var url='public/uploads/'+req.files[0].filename;
